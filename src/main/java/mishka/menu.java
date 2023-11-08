@@ -4,7 +4,16 @@ import mishka.answerbook.ShuntingYard;
 import mishka.answerbook.VariablesAndFunctions;
 
 import java.util.Scanner;
+/**
+ * Класс menu представляет собой реализацию работы "меню" упрощённой работы
+ * с чем-либо. В данном случае меню работает для работы с выражениями
+ *
+ * @author Mishka2374
+ */
 public class menu {
+    /**
+     * Метод для реализации работы с выражением
+     */
     public static void answer_expression()
     {
         Scanner scanner = new Scanner(System.in);
